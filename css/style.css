@@ -2220,3 +2220,51 @@ form.login-wrapper {
 
 
 /* //responsive */
+
+.copyright {
+    position: relative;
+    padding: 20px 60px ;
+    /* margin-top: 40px */
+}
+
+.copyright:before {
+    top: 0;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    content: "";
+    height: 1px;
+    background: #ebedee
+}
+
+.copy {
+text-align: left;    /* text-align: left; */
+}
+
+.sign {
+    text-align: right;
+}
+
+
+.hid:hover {
+    text-decoration: underline!important;
+    /* text-transform: uppercase; */
+    color: #262262!important;
+    font-weight: bold;
+}
+
+.hov {
+    color: rgb(165, 165, 165)!important;
+}
+
+.sign .hid {
+    display: none;
+}
+
+.sign:hover .hov {
+    display: none;
+}
+
+.sign:hover .hid {
+    display: inline;
+}
