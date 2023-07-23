@@ -53,3 +53,28 @@ $(document).ready(function() {
         $("#myModal11").modal();
     })
 });
+$(document).ready(function() {
+    $("#myBtn12").click(function() {
+        $("#myModal12").modal();
+    })
+});
+$(document).ready(function() {
+    $("#myBtn13").click(function() {
+        $("#myModal13").modal();
+    })
+});
+$(document).ready(function() {
+    $("#myBtn14").click(function() {
+        $("#myModal14").modal();
+    })
+});
+$(document).ready(function() {
+    $("#myBtn15").click(function() {
+        $("#myModal15").modal();
+    })
+});
+$(document).ready(function() {
+    $("#myBtn16").click(function() {
+        $("#myModal16").modal();
+    })
+});
