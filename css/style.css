@@ -1064,7 +1064,7 @@ a.butn-w3pvt {
 }
 
 .services-w3ls {
-    background: url(../images/2023_2.png) no-repeat center fixed;
+    background: url(../images/bg2.jpg) no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2271,4 +2271,25 @@ text-align: left;    /* text-align: left; */
 
 .modal-body ul>li {
     margin-left: 20px;
+}
+
+
+/* WhatsApp floating button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
