@@ -2242,7 +2242,9 @@ text-align: left;    /* text-align: left; */
 }
 
 .sign {
-    text-align: right;
+    text-align: left;
+    
+    color: #000!important;
 }
 
 
